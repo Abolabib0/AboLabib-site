@@ -90,9 +90,9 @@ int main() {
     file << "<a href='https://www.instagram.com/abo_l7bib/'>Instagram</a>\n";
     file << "</div>\n";
 
-    // QR Code مباشر للرابط HTTPS على الإنترنت
+    // QR Code مباشر للرابط الافتراضي على GitHub Pages HTTPS
     file << "<div class='qrcode'>\n";
-    file << "<img src='https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=https://zeyadlabib.com&choe=UTF-8' alt='QR Code'>\n";
+    file << "<img src='https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=https://abolabib0.github.io/zeyadlabib-site/&choe=UTF-8' alt='QR Code'>\n";
     file << "</div>\n";
 
     file << "<footer>Made by Abo Labib 😎</footer>\n";
@@ -100,7 +100,7 @@ int main() {
 
     file.close();
 
-    cout << "Website ready for HTTPS! Open index.html to view it." << endl;
+    cout << "Website ready for GitHub Pages HTTPS! Open index.html to view it." << endl;
     system("start index.html");
     return 0;
 }
